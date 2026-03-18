@@ -1,4 +1,4 @@
-# CAAD 任务工单清单 (Alpha 阶段)
+# UAAD 任务工单清单 (Alpha 阶段)
 
 请将以下列表录入到 GitHub/Gitee 的 Issues 中，并按 ID 分配给对应组员。
 
@@ -6,18 +6,18 @@
 
 | ID | 标题 | 详细描述 | 优先级 |
 |---|---|---|---|
-| **#1** | [ALPHA-BE-01] 初始化项目骨架 | 使用 Maven/Go Mod 初始化项目，确认目录结构符合 MVC 规范。 | 高 |
-| **#2** | [ALPHA-BE-02] 数据库 DDL 与驱动配置 | 编写 SQL 脚本创建 `users` 表，配置数据库连接池。 | 高 |
-| **#3** | [ALPHA-BE-03] 注册接口设计与实现 | 实现 `POST /api/v1/auth/register`，包含 Bcrypt 加密及数据校验，由于是基建期，需配套 JUnit/Go Test 单元测试。 | 高 |
-| **#4** | [ALPHA-BE-04] 登录接口与 JWT 签发 | 实现 `POST /api/v1/auth/login`，成功后签发 JWT。 | 高 |
-| **#5** | [ALPHA-BE-05] 容器化与 CI 脚本 | 编写 Dockerfile 及 `.github/workflows/ci.yml`。 | 中 |
+| **#1** | [UAAD-BE-01] 初始化分布式项目骨架 | 使用 Maven/Go Mod 初始化面向高并发微服务的项目框架体系。 | 高 |
+| **#2** | [UAAD-BE-02] 数据库 DDL 与连接池优化 | 编写 SQL 脚本创建使用 `phone` 为基准的 `users` 业务表，调整高并发下的连接池策略。 | 高 |
+| **#3** | [UAAD-BE-03] 手机号注册防刷接口实现 | 实现 `POST /api/v1/auth/register`，支持手机身份入库与频控策略，配置核心自动化测试。 | 高 |
+| **#4** | [UAAD-BE-04] C端登录令牌下发集成 | 实现 `POST /api/v1/auth/login`，在千万级潜在用户规模并发下高效处理哈希比对并签发 JWT 无状态身份环。 | 高 |
+| **#5** | [UAAD-BE-05] 业务上云容器编排准备 | 编写高阶版 Dockerfile（多阶段构建）及其适配的 K8s / CI 自动化流部署配置。 | 中 |
 
 ## 前端开发组 (Frontend)
 
 | ID | 标题 | 详细描述 | 优先级 |
 |---|---|---|---|
-| **#6** | [ALPHA-FE-01] 初始化前端项目 | 使用 Vite 初始化 Vue/React 项目，配置 Axios 与 baseURL。 | 高 |
-| **#7** | [ALPHA-FE-02] Apifox 接口 Mock 定义 | 依据接口规范，在 Apifox 录入注册、登录接口 Mock 数据。 | 高 |
-| **:construction: #8** | [ALPHA-FE-03] 用户注册页面开发 | 实现注册视图 (View)，与 ViewModel 绑定，对接 Mock 接口。 | 高 |
-| **:construction: #9** | [ALPHA-FE-04] 用户登录页面开发 | 实现登录视图 (View) 与 Token 本地存储逻辑。 | 高 |
-| **#10** | [ALPHA-FE-05] UI 自动化测试初探 | 配置 Selenium 并编写一个基础的登录成功断言测试用例。 | 中 |
+| **#6** | [UAAD-FE-01] 全端响应式前端脚手架建立 | 启动面向复杂 C 端链路的 Vite/React/Vue 生产级初始架构，统一 Axios 错误捕捉。 | 高 |
+| **#7** | [UAAD-FE-02] 服务端链路前置 Mock 定义 | 基于全网流量承接规范录入各类边缘异常和常规场景的数据存根（如“排队中”、“网络异常”）。 | 高 |
+| **:construction: #8** | [UAAD-FE-03] 用户快速注册态页面适配 | 解耦并重构注册界面的用户登录体系（从校内学号切换为互联网常用认证 UI）。 | 高 |
+| **:construction: #9** | [UAAD-FE-04] 无痕鉴权登录认证链联接 | 全新登录视图及针对 XSS 防护标准下的浏览器 JWT 缓存生命周期控制策略执行。 | 高 |
+| **#10** | [UAAD-FE-05] E2E 大盘自动化回归探索 | 全生命周期配置大屏测试基础链表：从登录验证切入保障后续迭代。 | 中 |

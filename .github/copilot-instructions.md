@@ -1,4 +1,4 @@
-# 全局指令：CAAD 项目规范驱动开发 (SDD)
+# 全局指令：UAAD 项目规范驱动开发 (SDD)
 # 如果你是一个运行在本目录的 AI Agent (例如 Cursor, Copilot 等)，请在遵循以下规则的前提下协助代码开发。
 
 ## 1. 必读上下文 (Mandatory Readings)

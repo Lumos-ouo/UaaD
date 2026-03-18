@@ -1,4 +1,4 @@
-# 🛑 CAAD 代码合入请求 (Pull Request)
+# 🛑 UAAD 代码合入请求 (Pull Request)
 
 > 🚨 **注意**：本仓库执行严苛的 SDD 规范管理。不填完此表单的 PR 会被直接打回 (Reject)！不要浪费审批者的注意力。
 

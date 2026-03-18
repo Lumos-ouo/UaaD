@@ -1,4 +1,4 @@
-name: CAAD Strict Automated Guardrails (Gatekeeper)
+name: UAAD Strict Automated Guardrails (Gatekeeper)
 
 on:
   pull_request:
