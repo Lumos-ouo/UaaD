@@ -1,0 +1,37 @@
+{
+  "auth": {
+    "login": "登录",
+    "register": "注册",
+    "username": "用户名",
+    "phone": "手机号",
+    "password": "密码",
+    "confirmPassword": "确认密码",
+    "signIn": "立即登录",
+    "signUp": "立刻注册",
+    "noAccount": "还没有账号？",
+    "hasAccount": "已经有账号了？",
+    "welcome": "欢迎回来",
+    "enterCredentials": "请输入您的凭据以访问 UAAD",
+    "startExperience": "开启您的顶级活动体验",
+    "success": "注册成功！",
+    "redirecting": "正在跳转到登录页...",
+    "errorMsg": "登录失败，请检查您的凭据。"
+  },
+  "dashboard": {
+    "title": "控制盘概览",
+    "welcome": "欢迎回到 UAAD 平台",
+    "overview": "概览",
+    "activities": "活动管理",
+    "notifications": "中心通知",
+    "profile": "个人中心",
+    "settings": "系统设置",
+    "logout": "退出登录",
+    "activeActivities": "活跃活动",
+    "totalRegistrations": "报名总数",
+    "successRate": "平均成功率",
+    "highlights": "最近活动亮点",
+    "comingSoon": "即将开始",
+    "slots": "名额",
+    "open": "报名开放中"
+  }
+}

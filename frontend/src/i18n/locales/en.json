@@ -1,0 +1,37 @@
+{
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "username": "Username",
+    "phone": "Phone",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "welcome": "Welcome Back",
+    "enterCredentials": "Enter your credentials to access UAAD",
+    "startExperience": "Start your premium activity experience",
+    "success": "Registration Successful!",
+    "redirecting": "Redirecting to login...",
+    "errorMsg": "Login failed. Please check your credentials."
+  },
+  "dashboard": {
+    "title": "Dashboard Overview",
+    "welcome": "Welcome back to UAAD platform",
+    "overview": "Overview",
+    "activities": "Activities",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "activeActivities": "Active Activities",
+    "totalRegistrations": "Total Registrations",
+    "successRate": "Avg. Success Rate",
+    "highlights": "Recent Activity Highlights",
+    "comingSoon": "Coming Soon",
+    "slots": "slots",
+    "open": "Registration Open"
+  }
+}
