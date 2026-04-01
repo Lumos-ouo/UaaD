@@ -9,11 +9,11 @@
 
 ## 🏃 新人快速上手（按顺序读）
 
-1. 🔒 [SRS.md](#1-需求与设计) → 了解项目是什么
-2. 🔒 [SYSTEM_DESIGN.md](#1-需求与设计) → 看懂架构和 API
-3. 🔒 [COLLABORATION.md](#2-团队协作) → 知道怎么和人配合
-4. 🔧 [CONTRIBUTING.md](#2-团队协作) → 知道怎么提交代码
-5. 🔧 [FRONTEND_SPEC.md](#4-前端) → 前端开发规范
+1. 🔒 [SRS.md](docs/SRS.md) → 了解项目是什么
+2. 🔒 [SYSTEM_DESIGN.md](docs/SYSTEM_DESIGN.md) → 看懂架构和 API
+3. 🔒 [COLLABORATION.md](docs/COLLABORATION.md) → 知道怎么和人配合
+4. 🔧 [CONTRIBUTING.md](CONTRIBUTING.md) → 知道怎么提交代码
+5. 🔧 [FRONTEND_SPEC.md](frontend/FRONTEND_SPEC.md) → 前端开发规范
 
 ---
 
@@ -186,4 +186,4 @@ frontend/
 | **Sprint 4** | 推荐系统（行为埋点 + 热度 + CF） | 5 天 | 2 人并行 |
 | **Sprint 5** | 压测 + E2E + Docker Compose + 文档 | 5 天 | 全员 |
 
-详细说明见 [COLLABORATION.md §5](COLLABORATION.md) 和 [wbs.puml](wbs.puml)。
+详细说明见 [COLLABORATION.md §5](docs/COLLABORATION.md) 和 [wbs.puml](docs/wbs.puml)。
