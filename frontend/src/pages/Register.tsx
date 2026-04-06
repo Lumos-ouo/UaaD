@@ -96,7 +96,7 @@ const RegisterPage = () => {
                   value={formData.username}
                   onChange={(e) => setFormData({...formData, username: e.target.value})}
                   className="block w-full pl-10 pr-3 py-3 bg-slate-950/50 border border-slate-800 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-blue-500/50"
-                  placeholder="John Doe"
+                  placeholder={t('auth.usernamePlaceholder')}
                 />
               </div>
             </div>
